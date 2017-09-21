@@ -1,44 +1,44 @@
-ClassId,SignName
-0,Speed limit (20km/h)
-1,Speed limit (30km/h)
-2,Speed limit (50km/h)
-3,Speed limit (60km/h)
-4,Speed limit (70km/h)
-5,Speed limit (80km/h)
-6,End of speed limit (80km/h)
-7,Speed limit (100km/h)
-8,Speed limit (120km/h)
-9,No passing
-10,No passing for vehicles over 3.5 metric tons
-11,Right-of-way at the next intersection
-12,Priority road
-13,Yield
-14,Stop
-15,No vehicles
-16,Vehicles over 3.5 metric tons prohibited
-17,No entry
-18,General caution
-19,Dangerous curve to the left
-20,Dangerous curve to the right
-21,Double curve
-22,Bumpy road
-23,Slippery road
-24,Road narrows on the right
-25,Road work
-26,Traffic signals
-27,Pedestrians
-28,Children crossing
-29,Bicycles crossing
-30,Beware of ice/snow
-31,Wild animals crossing
-32,End of all speed and passing limits
-33,Turn right ahead
-34,Turn left ahead
-35,Ahead only
-36,Go straight or right
-37,Go straight or left
-38,Keep right
-39,Keep left
-40,Roundabout mandatory
-41,End of no passing
-42,End of no passing by vehicles over 3.5 metric tons
+Image 1,,,ClassId,SignName,,,
+Prob,prediction,sign,0,Speed limit (20km/h),,,
+1.00E+00,12,Priority road,1,Speed limit (30km/h),,,
+4.00E-10,5,Speed limit (80km/h),2,Speed limit (50km/h),1.84E-07,3.28E-10,3.76E-11
+1.99E-10,13,Yield,3,Speed limit (60km/h),3.76E-11,,
+2.97E-11,35,Ahead only,4,Speed limit (70km/h),,,
+1.86E-12,3,Speed limit (60km/h),5,Speed limit (80km/h),,,
+,,,6,End of speed limit (80km/h),5.94E-12,3.14E-13,2.39E-14
+Image 2,,,7,Speed limit (100km/h),2.39E-14,,
+prob,prediction,sign,8,Speed limit (120km/h),,,
+1.00E+00,17,No entry,9,No passing,1.11E-15,4.81E-17,1.87E-23
+5.20E-14,14,Stop,10,No passing for vehicles over 3.5 metric tons,1.87E-23,,
+1.77E-15,1,Speed limit (30km/h),11,Right-of-way at the next intersection,,,
+6.68E-16,33,Turn right ahead,12,Priority road,,,
+1.74E-17,0,Speed limit (20km/h),13,Yield,,,
+,,,14,Stop,,,
+Image 3,,,15,No vehicles,,,
+prob,prediction,sign,16,Vehicles over 3.5 metric tons prohibited,,,
+1.00E+00,1,Speed limit (30km/h),17,No entry,,,
+2.26E-06,2,Speed limit (50km/h),18,General caution,,,
+1.84E-07,0,Speed limit (20km/h),19,Dangerous curve to the left,,,
+3.28E-10,4,Speed limit (70km/h),20,Dangerous curve to the right,,,
+3.76E-11,5,Speed limit (80km/h),21,Double curve,,,
+,,,22,Bumpy road,,,
+Image 4,,,23,Slippery road,,,
+prob,prediction,sign,24,Road narrows on the right,,,
+1.00E+00,37,Go straight or left,25,Road work,,,
+5.53E-11,2,Speed limit (50km/h),26,Traffic signals,,,
+5.94E-12,35,Ahead only,27,Pedestrians,,,
+3.14E-13,1,Speed limit (30km/h),28,Children crossing,,,
+2.39E-14,8,Speed limit (120km/h),29,Bicycles crossing,,,
+,,,30,Beware of ice/snow,,,
+Image 5,,,31,Wild animals crossing,,,
+prob,prediction,sign,32,End of all speed and passing limits,,,
+1.00E+00,18,General caution,33,Turn right ahead,,,
+9.08E-15,11,Right-of-way at the next intersection,34,Turn left ahead,,,
+1.11E-15,26,Traffic signals,35,Ahead only,,,
+4.81E-17,27,Pedestrians,36,Go straight or right,,,
+1.87E-23,1,Speed limit (30km/h),37,Go straight or left,,,
+,,,38,Keep right,,,
+,,,39,Keep left,,,
+,,,40,Roundabout mandatory,,,
+,,,41,End of no passing,,,
+,,,42,End of no passing by vehicles over 3.5 metric tons,,,
